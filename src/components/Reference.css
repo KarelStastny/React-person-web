@@ -1,0 +1,48 @@
+.section-reference{
+    background-color: rgb(76, 105, 67);
+    color: white;
+    text-align: 
+    center;
+}
+
+.section-reference h2{
+    padding-top: 20px;
+    font-size: 30px;
+}
+
+.reference{
+    display: flex;
+    padding: 50px;
+
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+  
+}
+.oneReference{
+    max-width: 300px;
+    box-shadow: 0 0 10px black;
+    border-radius: 10px;
+    background-color: #e6c698;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    color: black;
+
+}
+
+.oneReference img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+.oneReference p{
+    text-align: justify;
+}
+
+.oneReference h4{
+    margin-top: 20px;
+    text-align: right;
+}
