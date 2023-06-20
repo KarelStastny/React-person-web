@@ -3,23 +3,29 @@
 header{
     display: flex;
     min-height: calc(100vh - 80px) ;
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+  
     
 }
 
 .left-header{
-    
+
     width: 50%;
     position: relative;
 }
 .left-header img{
-    max-width: 100%;
-    max-height: 100%;
-    min-width: 90%;
-    min-height: 60%;
+    max-height: 90%;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
     position: absolute;
     bottom: 0;
+    
 }
 .righ-header{
+    padding-left: 20px;
     width: 50%;
     display: flex;
     justify-content: center;
@@ -55,19 +61,30 @@ header{
     }
     .righ-header{
         width: 100%;
-        padding: 20px;
+        padding: 40px;
+        
     }
+
+    .righ-header h2{
+        margin: 0 auto;
+    
+    }
+    .righ-header p{
+        margin: 0 auto;
+    }
+    
+    .righ-header button{
+        margin: 0 auto;
+    }
+
     .left-header{
         width: 100%;
     }
 
     .left-header img{
-        /* max-width: 100%;
-        max-height: 100%;
-        min-width: 60%;
-        min-height: 60%; */
+
         position: initial;
-        /* bottom: 0; */
+    
     }
 
 

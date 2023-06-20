@@ -8,20 +8,14 @@ import { RxCross2 } from "react-icons/rx";
 
 const Navbar = () => {
 
-    // const hamburger = document.querySelector(".hamburger")
+    const [nav, setNav] = useState(false)
+    const [hamburger, setHamburger] = useState(true)
 
-    // console.log(hamburger);
+    const changeHamburger = () => {
+      setNav(!nav)
+      setHamburger(!hamburger)
+    }
 
-    // hamburger.addEventListener("click", () => {
-    //     hamburger.classList.toggle("active")
-        
-    // })
-    // const [hamburger, setHamburger] = useState(false)
-    // const hamburgerChange = () => {
-   
-    // }
-
-    
 
 
 
@@ -29,10 +23,15 @@ const Navbar = () => {
     <section className="navbar-container">
         <div className="logo">
             <a href="#"><i><FcHome/></i></a>
-            <h1>My web</h1>
+            <h1>First React Web</h1>
         </div>
-        <i className="hamburger" ><GiHamburgerMenu/></i>
-        <nav>
+        {/* Po kliknutí se zavolá funkce která změní hamburger i navigaci */}
+        <i onClick={() => changeHamburger() } className="hamburger" >
+          {hamburger ? <GiHamburgerMenu/>  :  <RxCross2/> }
+          
+          </i>
+        {/* podle toho jestli je hodnota true nebo false se přidá classa */}
+        <nav className={`${nav ? "show" : "hide"}`}>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Blog</a></li>
                 <li><a href="#">Service</a></li>

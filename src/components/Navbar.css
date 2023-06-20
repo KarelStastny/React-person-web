@@ -1,5 +1,9 @@
 
 .navbar-container{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+  
     max-height: 80px;
 
     display: flex;
@@ -27,6 +31,7 @@
 .navbar-container nav {
     display: flex;
     padding-right: 25px;
+    
 
 }
 
@@ -38,13 +43,14 @@
     /* font-style: italic; */
     font-weight: 700;
     color: black;
+    
 }
 .navbar-container nav li a {
     color: black;
 }
 .navbar-container nav li a:hover {
     text-decoration: underline 3px green;
-    scale: 1.1;
+    /* scale: 1.1; */
 }
 
 .navbar-container nav li span{
@@ -66,8 +72,24 @@
     display: initial;
 }
 
+/* Hamburger vyjížděcí menu classy */
+.hide{
 
-@media only screen and (max-width: 700px){
+    top: calc(100% + 1px);
+    height: 0px;
+    transition: ease-in-out 0.3s;
+    
+    
+}
+
+.show{
+    top: calc(100% + 1px);
+    height: 260px;
+    transition: ease-in-out 0.3s;
+   
+}
+
+@media only screen and (max-width: 800px){
     .hamburger{
         display: initial;
     }
@@ -77,8 +99,8 @@
         width: 50%;
         position: absolute;
         right: 0;
-        top: 100%;
-        border: 1px solid #bbb;
+        overflow: hidden;
+        
         z-index: 1000;
         
         
@@ -90,6 +112,7 @@
         line-height: 50px;
         /* background-color: #e5e5e5; */
         border-bottom: 1px solid #bbb;
+        background-color: rgba(255, 255, 255, 0.774);
 
         
 
