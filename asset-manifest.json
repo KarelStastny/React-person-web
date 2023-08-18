@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/React-person-web/static/css/main.4348c3e2.css",
+    "main.js": "/React-person-web/static/js/main.fe54bd14.js",
+    "static/media/2.jpg": "/React-person-web/static/media/2.94f8a5a7c24b329947d3.jpg",
+    "static/media/1.jpg": "/React-person-web/static/media/1.a6be2e480b61dd30043f.jpg",
+    "static/media/r2.jpg": "/React-person-web/static/media/r2.55ff8fc300eaa42c3657.jpg",
+    "static/media/r3.jpg": "/React-person-web/static/media/r3.436e7ab594233e188059.jpg",
+    "static/media/r1.jpg": "/React-person-web/static/media/r1.33f7549a31ef922813d6.jpg",
+    "index.html": "/React-person-web/index.html",
+    "main.4348c3e2.css.map": "/React-person-web/static/css/main.4348c3e2.css.map",
+    "main.fe54bd14.js.map": "/React-person-web/static/js/main.fe54bd14.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4348c3e2.css",
+    "static/js/main.fe54bd14.js"
+  ]
+}
