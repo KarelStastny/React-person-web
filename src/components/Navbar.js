@@ -2,8 +2,9 @@ import { useState } from "react";
 import "./Navbar.css"
 import { FcHome } from "react-icons/fc";
 import { BsInstagram, BsFacebook, BsDiscord  } from "react-icons/bs";
-import { GiHamburgerMenu,  } from "react-icons/gi";
+
 import { RxCross2 } from "react-icons/rx";
+import { GiHamburgerMenu } from "react-icons/gi";
 
 
 const Navbar = () => {
